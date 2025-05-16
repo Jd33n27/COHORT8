@@ -1,0 +1,54 @@
+.flex-container{
+    background-color: red;
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+    height: 100vh;
+
+    /* display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 100px 100px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+/* FLEXBOX FROGGY TO PRACTICE FLEXBOX POSITIONS */
+/* .item{
+    background-color: lightblue;
+} */
+.one{
+background-color: lightblue;
+height: 170px;
+}
+
+.two{
+    background-color: rgb(210, 230, 173);
+    height: 190px;
+}
+
+.three{
+    background-color: rgb(230, 173, 208);
+    height: 175px;
+}
+
+.four{
+    background-color: rgb(230, 100, 208);
+    height: 150px;
+}
+
+.five{
+    background-color: rgb(100, 230, 210);
+    height: 165px;
+}
+
+.six{
+    background-color: rgb(100, 230, 210);
+    height: 165px;
+}

@@ -1,0 +1,29 @@
+body {
+  background-color: #555;
+  color: #111;
+
+  font: normal 16px Arial, Helvetica, sans-serif;
+  /* line-height: 1.6em; */
+  margin: 0;
+  border: 20px 0px;
+  padding: 20px;
+}
+
+a {
+  text-decoration: underline;
+  color: #000;
+  font-size: 15px;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: red;
+}
+
+.image-title {
+  font-size: 10px;
+  line-height: 1.6em;
+}
