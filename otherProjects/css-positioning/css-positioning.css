@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.card{
+    position: relative;
+    background-color: bisque;
+    width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+}
+
+.profile-img{
+    background-color: #A5552A;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    width: 33%;
+    top: -60px;
+    /* bottom: ;
+    left:   ; */
+    right:  95px;
+}
+
+.badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #1cbe1c;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 14px;
+}
+.card button{
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #666;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+}

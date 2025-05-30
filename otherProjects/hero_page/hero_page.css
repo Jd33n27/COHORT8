@@ -67,7 +67,7 @@ nav a:hover{
     outline: none;
 }
 
-input::placeholder{
+.searchInput::placeholder{
     color: #fff;
 }
 
@@ -115,6 +115,7 @@ main{
     color: #fff;
     font-family: sans-serif;
 }
+/* how Mr Sheriff made it work */
 .btn{
     display: flex;
     gap: 20px;
@@ -169,4 +170,42 @@ background-color:#fff;
 
 .imageContainer img{
     width:100%;
+}
+
+.img--profile{
+    background-color: #000;
+    padding: 10px;
+    display: flex;
+    gap : 20px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.img--profile h4{
+    padding-top: 15px;
+    color: #bdd1ff;
+    font-size: 20px;
+}
+
+.img--profile p{
+    color: #fff;
+}
+
+.img--profile img{
+    width: 75px;
+    height: 75px
+}
+
+.arrow-section{
+    padding: 0 60px;
+}
+
+.arrow{
+    display: flex;
+    justify-content: end;
+}
+
+.arrow--btn{
+    padding: 15px;
+    border-radius: 50%;
 }
